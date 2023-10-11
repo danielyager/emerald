@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Emerald">
+      <UniqueIdentifier>{FF22D8C8-6B02-5764-741A-E23AE078BDC5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Emerald.h" />
+    <ClInclude Include="src\Emerald\Application.h">
+      <Filter>Emerald</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Emerald\Core.h">
+      <Filter>Emerald</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Emerald\EntryPoint.h">
+      <Filter>Emerald</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Emerald\Log.h">
+      <Filter>Emerald</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Test.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Emerald\Application.cpp">
+      <Filter>Emerald</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Emerald\Log.cpp">
+      <Filter>Emerald</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Test.cpp" />
+  </ItemGroup>
+</Project>

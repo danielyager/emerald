@@ -1,0 +1,3 @@
+[submodule "Emerald/thirdparty/spdlog"]
+	path = Emerald/thirdparty/spdlog
+	url = https://github.com/gabime/spdlog
